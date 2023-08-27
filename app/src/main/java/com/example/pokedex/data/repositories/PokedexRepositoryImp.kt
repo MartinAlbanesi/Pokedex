@@ -1,5 +1,7 @@
-package com.example.pokedex
+package com.example.pokedex.data.repositories
 
+import com.example.pokedex.data.repositories.models.Pokedex
+import com.example.pokedex.data.repositories.network.pokedex.PokedexClient
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import retrofit2.Response

@@ -1,4 +1,4 @@
-package com.example.pokedex
+package com.example.pokedex.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,7 +10,12 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.pokedex.data.repositories.models.Pokedex
 import com.example.pokedex.databinding.ActivityMainBinding
+import com.example.pokedex.ui.adapters.PokedexAdapter
+import com.example.pokedex.ui.states.PokedexScreenState
+import com.example.pokedex.ui.viewmodels.PokedexViewModel
+import com.example.pokedex.ui.viewmodels.PokedexViewModelFactory
 import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {

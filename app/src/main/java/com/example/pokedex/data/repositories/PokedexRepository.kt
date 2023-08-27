@@ -1,6 +1,6 @@
-package com.example.pokedex
+package com.example.pokedex.data.repositories
 
-import com.example.pokedex.Pokedex
+import com.example.pokedex.data.repositories.models.Pokedex
 import retrofit2.Response
 
 interface PokedexRepository {

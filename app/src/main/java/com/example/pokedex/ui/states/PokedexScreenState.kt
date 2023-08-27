@@ -1,4 +1,6 @@
-package com.example.pokedex
+package com.example.pokedex.ui.states
+
+import com.example.pokedex.data.repositories.models.Pokedex
 
 sealed class PokedexScreenState {
     object Loading : PokedexScreenState()
